@@ -1,0 +1,247 @@
+
+.font-icon{
+    list-style: none;
+    display: inline-block;
+}
+.nav-line.active{
+    border-bottom:2px solid #FFF705;
+    width:5px ;
+    
+}
+.nav-line:hover{
+    border-bottom:2px solid #FFF705;
+     
+}
+#hero{
+    background-color: #2E4180; 
+    color:#fcfcfc !important;
+    padding:13px;
+}
+#welcome{
+    background: linear-gradient(rgba(46, 65, 128, 0.16), rgba(46, 65, 128, 0.68)), url('../img/top-bg.png') no-repeat fixed;
+    background-size: cover;
+    height: 500px;;
+}
+.school-logo{
+    position: relative;
+    top:-210px;
+    left:650px;
+    border:1px solid #2E4180;
+    background-color: #1E3272;
+    padding:8px 2px 4px 2px;
+}
+.welcome{
+    position: relative;
+    top:300px;
+}
+.welcome-btn{
+    position: relative;
+    top:300px;
+
+}
+.btn-explore{
+    background-color: #FFF705;
+    width:200px;
+    color:#2E4180;
+    font-weight: bold !important; 
+}
+.explore-text, .explore-p{
+    color:#2E4180;
+}
+.school-clip{
+    height: 390px;
+}
+#objective{
+    background: linear-gradient(rgba(46, 65, 128, 0.88), rgba(46, 65, 128, 0.88)), url('../img/concept-bg.png')   no-repeat fixed;
+    background-size: cover;
+    height: 650px;
+}
+.concept-h3{
+    color:#FFF705;
+}
+.concept-p, .concept-p-2{
+    font-size: 16px;
+}
+.btn-more{
+    background-color:#FFF705;
+    width:200px;
+    color:#2E4180;
+    font-weight: bold !important; 
+}
+.objective-student, .objective-count{
+    color:#FFF705;
+}
+.objective-student{
+    font-size:18px;
+}
+.obj{
+    border-left: 2px dotted #FFF705;
+    border-right: 2px dotted #FFF705;
+    border-bottom: 2px dotted #FFF705;
+}
+.objt{
+    border-bottom: 2px dotted #FFF705;
+}
+.count{
+    border-left: 2px dotted #FFF705;
+    border-bottom: 2px dotted #FFF705;
+}
+.count1{
+    border-left: 2px dotted #FFF705;
+     
+}
+.blog-h3{
+    color:#1E3272;
+}
+.blog-text{
+    position: relative;
+    top:-44px;
+    text-align: center;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.53);
+    padding:10px 3px 10px 3px;
+}
+#slide{
+    background-color: #2E4180;
+    font-size:30px;
+}
+.lead-quote{
+    color:#FFF705;
+    font-size:80px;
+     left:170px !important;
+     position: relative;
+     bottom:-40px;
+     
+}
+.quote{
+    color:#FFF705;
+    font-size:80px;
+     left:890px;
+     position: relative;
+     top:-40px !important;
+}
+.slide-name{
+    position: relative;
+    top:-90px;
+    font-size:15px;
+}
+.slide-name-p{
+    position: relative;
+    top:-99px;
+    font-size:15px;
+    color: #FFF705;
+}
+#sponsor{
+    background-color: rgb(245, 245, 245);
+}
+.sponsor-h4{
+    color: #2E4180;
+    font-size: 22px;
+}
+.alumni-h3{
+    color: #2E4180;
+    font-size: 24px;
+}
+.alumni-name{
+    color: #2E4180;
+
+}
+.alumni-class{
+    color:rgb(4, 17, 63);
+    font-size: 20px;
+}
+.school-logo-2{
+    position: relative;
+    top:-100px;
+    left:50px;
+     
+}
+.footer-item{
+    list-style: none;
+    display: block;
+    color:#1E3272;
+    font-weight: 430;
+    padding:5px;
+}
+.footer-text{
+    color:#1E3272;
+}
+.footer-follow{
+    color:#1E3272;
+    font-size: 12px;
+}
+.fa-face{
+    border-radius:100px;
+    border:1px solid #1E3272;
+    padding:10px 10px 10px 10px;
+}
+.fa-twi{
+    border-radius:100px;
+    border:1px solid #1E3272;
+    padding:10px 10px 10px 10px;
+}
+
+ @media (max-width:1024px){
+    #welcome{
+        background: url('../img/top-bg.png') no-repeat;
+        background-size: cover;
+        height: 200px;;
+    }
+    .welcome, .welcome-btn{
+        position: relative;
+        top:-1px;
+        font-size: 20px;
+    }
+    #objective{
+        padding-bottom:550px;
+    }
+    .concept-p,.concept-p-2{
+        font-size: 14px;
+        text-align: justify !important;
+    }
+
+    .objective-count{
+        font-size:14px;
+    }
+    .objective-student{
+        font-size:9px !important;
+    }
+    #slide{
+        font-size: 12px;
+    }
+    .lead-quote{
+        color:#FFF705;
+        font-size:40px;
+         left:10px !important;
+         position: relative;
+         bottom:-40px;
+         
+    }
+    .quote{
+        color:#FFF705;
+        font-size:40px;
+         left:270px;
+         position: relative;
+         top:-40px !important;
+    }
+    .slide-name{
+        position: relative;
+        top:-40px;
+        font-size:10px;
+    }
+    .slide-name-p{
+        position: relative;
+        top:-49px;
+        font-size:8px;
+        color: #FFF705;
+    }
+    .footer-text-2{
+        color:#1E3272;
+        font-size: 16px;
+    }
+    .footer-text{
+        color:#1E3272;
+        font-size: 16px;
+    }
+    
+}
