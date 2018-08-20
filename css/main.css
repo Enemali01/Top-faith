@@ -5,39 +5,47 @@
 }
 .nav-line.active{
     border-bottom:2px solid #FFF705;
-    width:5px ;
-    
+    width:120px ;
+}
+.nav-item{
+    margin-right:50px;
 }
 .nav-line:hover{
     border-bottom:2px solid #FFF705;
-     
 }
+
+.bg-navbar{
+    background:#2E4180 !important;
+    color:#ffffff;
+}
+.social-icon{
+    list-style: none;
+    display: inline-block;
+}
+
 #hero{
-    background-color: #2E4180; 
-    color:#fcfcfc !important;
-    padding:13px;
-}
-#welcome{
     background: linear-gradient(rgba(46, 65, 128, 0.16), rgba(46, 65, 128, 0.68)), url('../img/top-bg.png') no-repeat fixed;
     background-size: cover;
     height: 500px;;
 }
 .school-logo{
-    position: relative;
-    top:-210px;
-    left:650px;
-    border:1px solid #2E4180;
+    position: absolute;
+    top:-15px;
+     border:1px solid #2E4180;
     background-color: #1E3272;
-    padding:8px 2px 4px 2px;
+    padding:10px 10px 10px 10px;
 }
-.welcome{
+.school-img{
+    margin-right:10px !important;
+}
+
+.hero-text{
     position: relative;
-    top:300px;
+    top:150px;
 }
 .welcome-btn{
-    position: relative;
-    top:300px;
-
+    padding-top:130px;
+    
 }
 .btn-explore{
     background-color: #FFF705;
@@ -111,7 +119,7 @@
      left:170px !important;
      position: relative;
      bottom:-40px;
-     
+     font-family:'Times New Roman', Times, serif;
 }
 .quote{
     color:#FFF705;
@@ -119,6 +127,7 @@
      left:890px;
      position: relative;
      top:-40px !important;
+     font-family: 'Times New Roman', Times, serif;
 }
 .slide-name{
     position: relative;
@@ -137,6 +146,18 @@
 .sponsor-h4{
     color: #2E4180;
     font-size: 22px;
+}
+.sponsor-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.sponsor-2{
+    width:200px;
+    height: 100px !important;
+}
+.sponsor-4{
+    width:200px;
+    height: 100px !important;
 }
 .alumni-h3{
     color: #2E4180;
@@ -172,13 +193,17 @@
 }
 .fa-face{
     border-radius:100px;
+    height:45px;
+    width:45px;
     border:1px solid #1E3272;
-    padding:10px 10px 10px 10px;
+    padding:15px 10px 10px 10px;
 }
 .fa-twi{
     border-radius:100px;
+    height:45px;
+    width:45px;
     border:1px solid #1E3272;
-    padding:10px 10px 10px 10px;
+    padding:15px 10px 10px 10px;
 }
 
  @media (max-width:1024px){
@@ -216,6 +241,16 @@
          position: relative;
          bottom:-40px;
          
+    }
+    .alumni-name{
+        font-size: 12px;
+    }
+    .navbar-brand{
+        
+        margin-left:80px !important;
+    }
+    .nav-item{
+        margin-left:80px !important;
     }
     .quote{
         color:#FFF705;
